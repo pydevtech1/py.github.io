@@ -57,7 +57,7 @@ section#hero{
     min-width: 70px;
     z-index: 1000;
     transition: all .25s ease-in-out;
-    background-color: black;
+    background-color: #1E201E;
     display: flex;
     flex-direction: column;
 }
@@ -115,7 +115,7 @@ a.sidebar-link {
 
 a.sidebar-link:hover {
     background-color: rgba(255, 255, 255, .075);
-    border-left: 3px solid black;
+    border-left: solid blue;
 }
 
 .sidebar-item {
@@ -163,12 +163,16 @@ a.sidebar-link:hover {
 }
 
 h1{
-  color: #fff;
-  font-size: 75px;
+  color: white;
+  font-size: 50px;
 }
+h2{
+    color: purple;
+    font-size: 30px;
+  }
 
 span{
-  color: PURPLE;
+  text-decoration: underline;
 }
 .loader {
   position: center;
